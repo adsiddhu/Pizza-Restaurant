@@ -54,8 +54,8 @@ a {
     text-align: center;
     color: #FFFFFF;
     width: 902px;
-    height: 215px;
-    top: 240px;
+    height: 250px;
+    margin-top: 50px;
     background: transparent;
 }
 
@@ -63,11 +63,11 @@ a {
     font-family: Ruda, 'Courier New', Courier, monospace;
     font-size: 25px;
     width: 599px;
-    height: 325px;
-    margin: 100px;
+    height: 300px;
     margin-left: 150px;
     color: #FFFFFF;
     background: transparent;
+    line-height: 2;
 }
 
 h1 {
@@ -82,6 +82,13 @@ h1 {
     margin: auto;
     border-top: 5px solid #B62828;
     margin-bottom: 50px;
+}
+
+.bgHr {
+    width: 600px;
+    margin: 50px;
+    margin-left: 150px;
+    border-top: 12px solid #B62828;
 }
 
 .about-us {
@@ -118,6 +125,8 @@ h1 {
     margin-top: -8px;
     color: #FFFFFF;
     text-align: center;
+    line-height: 1.6;
+
 }
 
 .menu-para {
@@ -127,6 +136,7 @@ h1 {
     top: 2153px;
     left: 212px;
     margin: 100px;
+    line-height: 2;
 }
 
 .menu-container {
@@ -137,6 +147,10 @@ h1 {
     margin-right: 50px;
 }
 
+.menu-1p {
+    line-height: 2.5;
+}
+
 .menu-1 {
     display: flex;
     margin: 18px;
@@ -144,6 +158,7 @@ h1 {
 
 .menu-1 div h3 {
     color: #F2C94C;
+    line-height: 2;
 }
 
 .menu-1 div {
